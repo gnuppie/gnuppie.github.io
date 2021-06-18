@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home | Louis Pung</title>
+    <meta name="author" content="Louis Pung">
+    <meta name="description" content="Louis Pung">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--    FAVICON-->
+    <link rel="icon" href="images/favicon.ico">
+<!--    GOOGLE FONT-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+<!--    BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+<!--    FONTAWESOME-->
+    <script src="https://kit.fontawesome.com/c633ac3285.js" crossorigin="anonymous"></script>
+<!--    CSS STYLESHEET-->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!--NAVBAR-->
+<div class="above-all">
+    <nav class="navbar">
+        <ul class="navbar-nav">
+            <li class="logo removable">
+                <a href = "#" class = "nav-link">
+                    <img class="link-logo" src="images/apple-touch-icon.png" alt="logo-img">
+                    <i class="fas fa-angle-double-right"></i>
+                </a>
+            </li>
+            <li class="nav-item removable">
+                <a href = "#about-me" class = "nav-link">
+                    <i class="fas fa-user-ninja fa-2x"></i>
+                    <span class="link-text">About Me</span>
+                </a>
+            </li>
+            <li class="nav-item removable">
+                <a href = "#education" class = "nav-link">
+                    <i class="fas fa-apple-alt fa-2x"></i>
+                    <span class="link-text">Education</span>
+                </a>
+            </li>
+            <li class="nav-item removable">
+                <a href = "#experience" class = "nav-link">
+                    <i class="fas fa-briefcase fa-2x"></i>
+                    <span class="link-text">Work Experience</span>
+                </a>
+            </li>
+            <li class="nav-item removable">
+                <a href = "#portfolio" class = "nav-link">
+                    <i class="fas fa-project-diagram fa-2x"></i>
+                    <span class="link-text">Portfolio</span>
+                </a>
+            </li>
+            <li class="nav-item removable">
+                <a href = "#leadership" class = "nav-link">
+                    <i class="fas fa-users fa-2x"></i>
+                    <span class="link-text">Leadership</span>
+                </a>
+            </li>
+            <li class="nav-item removable">
+                <a href = "#skills" class = "nav-link">
+                    <i class="fas fa-cubes fa-2x"></i>
+                    <span class="link-text">Skills</span>
+                </a>
+        </li>
+            <li class="nav-item nav-link large-screen-removable dropdown">
+                <button class="fas fa-ellipsis-h fa-2x"></button>
+                <ul>
+                    <li><a href="#">BACK TO TOP</a></li>
+                    <li><a href="#about-me">ABOUT ME</a></li>
+                    <li><a href="#education">EDUCATION</a></li>
+                    <li><a href="#experience">WORK EXPERIENCE</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#leadership">LEADERSHIP</a></li>
+                    <li><a href="#skills">SKILLS</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a href = "#" class="nav-link modal-btn">
+                    <i class="social-icon fas fa-envelope fa-2x"></i>
+                    <span class="link-text">Contact Me</span>
+                </a>
+            </li>
+
+        </ul>
+    </nav>
+</div>
+<!--Title -->
+
+    <section id="title">
+        <div class="media-container">
+        <ul>
+            <li><a href="https://www.instagram.com/louisgnup/" class="media-link"><i class="social-icon fab fa-instagram fa-2x"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/louis-pung-4b2543214/" class="media-link"><i class="fab fa-linkedin fa-2x"></i></a></li>
+            <li><a href="https://github.com/gnuppie" class="media-link"><i class="fab fa-github fa-2x"></i></a></li>
+        </ul>
+        </div>
+        <div class="container-fluid title-container">
+            <h1>Hi, I'm <span class="hl-green">Louis</span><div class="cursor hl-green"> </div></h1>
+            <h4>I'm currently <span class="ageJS"></span>.</h4>
+            <br>
+            <p>Find out more about me</p>
+            <i class="fas fa-sort-down fa-2x green"></i>
+        </div>
+
+    </section>
+<!--About Me-->
+    <section id="about-me" class="info-card">
+        <div class="container-fluid">
+            <h1 class="hl-green">ABOUT ME</h1>
+            <img class="profile-pic" src="images/circular cropped profile pic.png" alt="profile-img">
+            <p>Hello there!</p>
+            <p>My name is Louis and I'm a freshmore student based in <span class="hl-yellow">Singapore</span>,
+               pursuing my Bachelor of Engineering in the <a href="https://www.sutd.edu.sg/"><i>Singapore University
+               of Technology and Design (SUTD)</i></a>, majoring in
+                <span class="hl-yellow">Information Systems,Technology and Design</span>.</p>
+            <p>I love all things food-related, whether it be cooking, consuming, searching for new foodie spots or
+            watching videos on YouTube. I am particularly crazy about cheese, curry and beef.
+            <img class="disappearing-pic sch" src="images/food.jpg" alt="food-img">
+            <p>This makes me obsessed with travel as well - to discover new sights and great food. I aspire to travel to
+               Iceland, United States, Italy and Greece, and my most frequented country of travel is Japan.</p>
+            <img class="disappearing-pic sch" src="images/travel-img.jpg" alt="travel-img">
+            <p>On the <em class="sidenote">(allegedly nerdier)</em> side, my other hobbies include
+               custom mechanical keyboards, reading <em>manga/web novels</em> and playing video games with friends.</p>
+            <img class="disappearing-pic sch" src="images/interest.png" alt="keyboard-img">
+            <p><span class="hl-yellow">I love the fresh aspect of learning new skills</span>, and
+                <span class="hl-yellow">challenging myself</span> to do things such like bungee-jumping,
+                solving a Rubik's Cube (personal best is sub-30 seconds!), as well as cheerleading.</p>
+            <img class="disappearing-pic sch" src="images/cheer-img.jpg" alt="cheer-img">
+        </div>
+    </section>
+<!--Education-->
+    <section id="education">
+        <h1 class="hl-green">EDUCATION</h1>
+        <div class="grid-container container-fluid">
+            <div class="uni-pic"><img class="sch" src="images/sutd.png" alt="uni-pic"></div>
+            <div class="justify-right">
+                <div class="uni-description educard">
+                    <h3><a href="https://www.sutd.edu.sg/">Singapore University of Technology and Design</a></h3>
+                    <h5><em>Est Graduation: 2024</em></h5>
+                    <h4><em class="sidenote">Bachelor of Engineering, Major in Information Systems, Technology and Design (intended)</em></h4>
+                    <p><strong class="hl-yellow">Cumulative GPA: 4.4</strong></p>
+                    <p>Recipient of <i class="hl-yellow">SUTD Undergraduate Merit Scholarship</i> for high academic performance</p>
+                </div>
+            </div>
+            <div class="jc-pic"><img class="sch" src="images/sajc.jpg" alt="jc-pic"></div>
+            <div class="jc-description educard">
+                <h3><a href="https://standrewsjc.moe.edu.sg/">St Andrew’s Junior College</a></h3>
+                <h5><em>2016-2017</em></h5>
+                <p><strong>Received <span class="hl-yellow">3 distinctions</span> for GCE A Levels</strong></p>
+            </div>
+            <div class="sec-pic"><img class="sch" src="images/sass.jpg" alt="sec-pic"></div>
+            <div class="justify-right">
+                <div class="sec-description educard">
+                    <h3><a href="https://standrewssec.moe.edu.sg/">St Andrew’s Secondary School</a></h3>
+                    <h5><em>2012-2015</em></h5>
+                    <p><strong>Received <span class="hl-yellow">7 distinctions</span> for GCE O Levels</strong></p>
+                </div>
+            </div>
+            <div class="pri-pic"><img class="sch" src="images/sajs.jpg" alt="pri-pic"></div>
+            <div class="pri-description educard">
+                <h3><a href="https://www.saintandrewsjunior.moe.edu.sg/">St Andrew’s Junior School</a></h3>
+                <h5><em>2006-2011</em></h5>
+                <p class="sidenote">Received 1 A* and 3 As for PSLE</p>
+            </div>
+
+
+        </div>
+
+    </section>
+<!--Work-->
+    <section id="experience" class="info-card">
+        <div class="container-fluid row">
+            <h1 class="hl-green">WORK EXPERIENCE</h1>
+
+            <div class="col-lg-6">
+            <h3> Operations Department, <a href="https://www.scdf.gov.sg/">Singapore Civil Defence Force</a></h3>
+            <h5><em>June 2018 - November 2018</em></h5>
+            <h4><em class="hl-yellow">Data Analyst</em></h4>
+            <ul>
+                <li>Collated and organized thousands of fire and medical case files per day to extract key analytical information and ease of reference</li>
+                <li>Responsible for coordinating with other government bodies (SAF, RSAF) during the Trump-Kim Summit</li>
+                <li>Assisted in the <a href="https://www.scdf.gov.sg/home/about-us/media-room/overseas-missions/flooding-due-to-dam-collapse-attapeu-province-laos-pdr">SCDF Operation Lionheart Contingent to Laos for flood relief efforts</a></li>
+            </ul>
+            </div>
+            <img class= "col-lg-6" src="images/scdf-logo.png" alt="scdf-img">
+            <div class="col-lg-6">
+            <h3> 995 Operations Centre, Singapore Civil Defence Force</h3>
+            <h5><em>November 2018 - February 2020</em></h5>
+            <h4><em class="hl-yellow">Call-taker and Data Analyst</em></h4>
+            <ul>
+                <li>Headed the organization of daily fire and medical cases for SCDF</li>
+                <li>Coordinated emergency calls and dispatched necessary appliances for daily fire and medical cases</li>
+            </ul>
+            </div>
+            <img class= "col-lg-6 col-md-3" src="images/ops-ctr.jpg" alt="ops-ctr-img">
+        </div>
+
+
+    </section>
+<!--Portfolio-->
+    <section id="portfolio">
+        <h1 class="hl-green">PORTFOLIO</h1>
+      <div id="carouselExampleControls" class="carousel slide" data-interval="false">
+          <div class="carousel-inner">
+
+            <div class="carousel-item active monopoly-img">
+              <h5 class="sidenote"> Computational Thinking For Design | SUTD <em>(September 2020 - December 2020)</em></h5>
+              <h3><a href="https://github.com/gnuppie/Monopoly-Deal-Python-Text-Game">Monopoly Deal</a></h3>
+                <ul>
+                    <li>A text-based game coded in <span class="hl-yellow">Python</span> via procedural programming.</li>
+                    <li>Allows for a variable number of players.</li>
+                </ul>
+            </div>
+
+            <div class="carousel-item parachute-img">
+              <h5 class="sidenote"> Term 1 2D Project | SUTD <em>(September 2020 - December 2020)</em></h5>
+              <h3>Foreign Aid Parachute Model</h3>
+                <ul>
+                    <li>Model designed on <span class="hl-yellow">Rhino CAD software.</span></li>
+                    <li><p>Simulations run on <span class="hl-yellow">Grasshopper</span> to mimic physical conditions.</p></li>
+                </ul>
+            </div>
+
+            <div class="carousel-item verticula-img">
+                <h5 class="sidenote"> Design Thinking and Innovation | SUTD <em>(January 2021 - April 2021)</em></h5>
+                <h3><a href="http://asd.courses.sutd.edu.sg/dti-teams/3-007-design-projects/cohort-7-design-projects/cohort-7-group-8/cohort-7-group-8-project-part-4/">
+                    VERTICULA</a></h3>
+                <ul>
+                    <li>An interactive, wheelchair-accessible table.</li>
+                    <li>3D printed parts modelled using <span class="hl-yellow">Autodesk Fusion 360</span>.</li>
+                    <li>Infra-red sensors and LED lights under tabletop controlled using <span class="hl-yellow">Arduino</span>.</li>
+                </ul>
+            </div>
+
+            <div class="carousel-item stirling-img">
+                <h5 class="sidenote"> Technological World | SUTD <em>(January 2021 - April 2021)</em></h5>
+                <h3>Electromagnetic Stirling Engine</h3>
+                <ul>
+                    <li>Prototyped for use as a component of a hybrid engine, it utilises electromagnetism to reduce carbon footprint.</li>
+                    <li>Parts were modelled in <span class="hl-yellow">Autodesk Fusion 360</span> and 3D printed/laser-cutted.</li>
+                </ul>
+            </div>
+          </div>
+
+            <button style="z-index: 0;" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+    </div>
+
+    </section>
+<!--Leadership-->
+    <section id="leadership">
+        <h1 class="hl-green">LEADERSHIP ROLES</h1>
+        <div class="grid-container-2">
+            <img class="vertex-img sch" src="images/vertex.jpg" alt="vertex-img">
+                <div class="vertex-description educard">
+                    <h3>Vertex Cheerleading Club | SUTD</h3>
+                    <h4 class="hl-yellow"><em>Logistics and Welfare Representative <span class="sidenote">(2020-2021)</span></em></h4>
+                    <ul>
+                        <li><strong class="hl-yellow">Coded scripts</strong> for significantly easier consolidation of personal information and expediting logistical processes</li>
+                        <li>Organized and liaised with the university to conduct camps and other extra-curricular activities</li>
+                    </ul>
+                </div>
+            <img class="guitar-img sch" src="images/guitar.jpg" alt="guitar-img">
+            <div class="justify-right">
+                <div class="guitar-description educard">
+                    <h3> Guitar Ensemble | SAJC</h3>
+                    <h4 class="hl-yellow"><em>Logistics Representative <span class="sidenote">(2016-2017)</span></em></h4>
+                    <ul>
+                        <li>Organized and liaised with the school for showcases and performances for school events, and outside venues</li>
+                        <li>Led the CCA to achieve an <em class="hl-yellow">Accomplishment Award for SYF</em> in 2017</li>
+                    </ul>
+                </div>
+            </div>
+            <i class="fas fa-swimmer fa-10x swimming-img"></i>
+                <div class="swimming-description educard">
+                    <h3> Swimming | SASS</h3>
+                    <h4 class="hl-yellow"><em>Vice-Captain <span class="sidenote">(2014-2015)</span></em></h4>
+                    <ul>
+                        <li>Represented the school in various swimming competitions</li>
+                        <li>Represented the school in the <a href="https://www.moe.gov.sg/news/press-releases/20150429-youth-celebrate-a-dazzling-display-of-exuberance-and-achievements-of-youth">SG50 Youth Celebrate! event in 2015</a> for the aquatic events</li>
+                    </ul>
+                </div>
+        </div>
+
+    </section>
+<!--Skills-->
+    <section id="skills">
+        <h1 class="hl-green skills-header">SKILLS</h1>
+        <div id="skills-inner">
+        <table class="table table-text">
+            <tbody>
+            <tr class="table-section hl-yellow">
+                <td class="smaller-section">Frontend Development</td>
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td>⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>⭐⭐⭐</td>
+            </tr>
+            </tr>
+            <tr>
+                <td>Bootstrap</td>
+                <td>⭐⭐⭐</td>
+            </tr>
+            </tr>
+            <tr class="table-section hl-yellow">
+                <td class="smaller-section">General Coding Language</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>⭐⭐⭐⭐⭐</td>
+            </tr>
+            <tr class="table-section hl-yellow">
+                <td class="smaller-section">Other Applications/Software</td>
+            </tr>
+            <tr>
+                <td>Microsoft Office</td>
+                <td>⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+                <td>Adobe</td>
+                <td>⭐⭐⭐</td>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+                <td>Rhino</td>
+                <td>⭐⭐</td>
+            </tr>
+            <tr>
+                <td>Autodesk Fusion 360</td>
+                <td>⭐⭐</td>
+            </tr>
+            <tr class="table-section hl-yellow">
+                <td class="smaller-section">Languages</td>
+            </tr>
+            <tr>
+                <td>English</td>
+                <td>⭐⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+                <td>Mandarin</td>
+                <td>⭐⭐</td>
+            </tr>
+            </tbody>
+        </table>
+            </div>
+    </section>
+<!--Contact Me-->
+<div class="bg-modal">
+    <div id="contact">
+        <div class="close">+</div>
+
+        <h1>Reach me here! <i class="fas fa-sort-down"></i></h1>
+
+        <form class="contact-form" action="https://formsubmit.co/b8542efb6c305c8754f9b54af15af41e" method="post">
+            <input type="hidden" name="_subject" value="New email from Personal Website!">
+            <input type = "text" class = "contact-form-text" placeholder="Your Name" name="Name" required>
+            <input type = "email" class = "contact-form-text" placeholder="Your Email" name="Email" required>
+            <input type = "text" class = "contact-form-text" placeholder="Your Phone Number (optional)" name="Phone Number">
+            <textarea class = "contact-form-text" placeholder="Your Message" name="Message" required></textarea>
+            <input type="hidden" name="_autoresponse" value="Hi, thank you for your message! Please give me 1-3 working days to get back to you.">
+            <input type = "submit" class = "contact-form-btn" value="Send">
+        </form>
+
+    </div>
+</div>
+<!--Footer-->
+    <footer id="footer">
+        <a href="https://www.instagram.com/louisgnup/" class="media-link"><i class="social-icon fab fa-instagram fa-2x"></i></a>
+        <a href="https://www.linkedin.com/in/louis-pung-4b2543214/" class="media-link"><i class="fab fa-linkedin fa-2x"></i></a>
+        <a href="https://github.com/gnuppie" class="media-link"><i class="fab fa-github fa-2x"></i></a>
+        <p class="copyright"></p>
+    </footer>
+</body>
+    <script src="assets/app.js"></script>
+</html>
