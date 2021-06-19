@@ -183,7 +183,7 @@ height: 60px;
 
 @-webkit-keyframes blink {
   0% {background: var(--bg-pri)}
-  50% {background: var(--hl-sec)}
+  50% {background: var(--hl-pri)}
   100% {background:var(--bg-pri)}
 }
 
@@ -535,9 +535,7 @@ justify-content: space-around;
 flex-direction: column;
 list-style: none;
 opacity: 0;
-pointer-events: none;
-transform: translateY(10px);
-transition: all var(--transition-speed) ease;
+pointer-events: none;;
 }
 
 
@@ -578,7 +576,6 @@ color: var(--hl-sec);
 .dropdown button:hover + ul {
 opacity: 1;
 pointer-events: all;
-transform: translateY(0px);
 }
 
 .navbar-nav {
@@ -647,6 +644,11 @@ border-bottom: 1px solid var(--hl-pri);
 
 .table-text {
 font-size: 20px;
+}
+
+/* contact */
+.bg-modal {
+transition: all 0s;
 }
 
 }
