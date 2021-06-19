@@ -183,7 +183,7 @@ height: 60px;
 
 @-webkit-keyframes blink {
   0% {background: var(--bg-pri)}
-  50% {background: var(--hl-pri)}
+  50% {background: var(--hl-sec)}
   100% {background:var(--bg-pri)}
 }
 
