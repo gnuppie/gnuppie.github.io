@@ -784,3 +784,34 @@ grid-area: swimming-d;
 }
 
 }
+
+/* --------------------------------------------------Thank You---------------------------------------------------- */
+.thankyou {
+height: 100vh;
+padding-top: 6rem;
+background-color: #0A1931;
+font-family: var(--font-mono);
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.thanks-container * {
+padding-bottom: 1rem;
+transform: translateY(0px);
+transition: transform var(--transition-speed) ease;
+}
+
+.thanks-container *:hover {
+transform: translateY(-10px);
+}
+
+.thanks-container i {
+margin: 0 1rem;
+}
+
+.giphy-embed {
+position: relative;
+z-index: -1;
+}
