@@ -63,6 +63,17 @@ position: relative;
 z-index: 999999;
 }
 
+.reveal{
+  position: relative;
+  transform: translateY(20px);
+  opacity: 0;
+  transition: 2s all ease;
+}
+.reveal.active{
+  transform: translateY(0px);
+  opacity: 1;
+}
+
 /* --------------------------------------------------NAVIGATION BAR-------------------------------------------------- */
 .navbar {
 position: fixed;
@@ -185,6 +196,22 @@ height: 60px;
   0% {background: var(--bg-pri)}
   50% {background: var(--hl-pri)}
   100% {background:var(--bg-pri)}
+}
+
+.bounce {
+  animation: bounce 1.5s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
 }
 
 /* --------------------------------------------------About Me-------------------------------------------------------- */
@@ -318,8 +345,28 @@ border: 1px solid var(--hl-pri);
 border-radius: 2%;
 }
 
+.sds-img {
+background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("../images/sds.jpg");
+background-size: cover;
+}
+
+.kampung-img {
+background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("../images/kampung.jpg");
+background-size: cover;
+}
+
+.rune-img {
+background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("../images/rune.jpg");
+background-size: cover;
+}
+
+.ddw-img {
+background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("../images/ddw.jpg");
+background-size: cover;
+}
+
 .monopoly-img {
-background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)), url("../images/monopoly.jpg");
+background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("../images/monopoly.jpg");
 background-size: cover;
 }
 
@@ -329,11 +376,6 @@ background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)), url("../ima
 
 .verticula-img {
 background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../images/table.gif");
-}
-
-.stirling-img {
-background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../images/stirling.jpg");
-background-size: cover;
 }
 
 /* --------------------------------------------------Leadership------------------------------------------------------ */
@@ -358,7 +400,7 @@ text-align: center;
 
 #skills-inner {
 padding-top: 1.5rem;
-background: linear-gradient(rgba(121,82,179,0.8),rgba(10,25,49,1));
+background: linear-gradient(to left, rgba(121,82,179,0.5) 5%,rgba(10,25,49,1));
 border-radius: 2%;
 box-shadow: 0px 20px 10px var(--bg-sec)
 }
